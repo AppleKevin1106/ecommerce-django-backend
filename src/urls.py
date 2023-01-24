@@ -27,12 +27,7 @@ urlpatterns = [
 
 # to load static/media files in development environment
 if settings.DEBUG:
-<<<<<<< HEAD
-    #urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-    #urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-=======
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT1)
 
->>>>>>> d8e8264fa67ff9d728843e797fe6831a8620d758
