@@ -69,3 +69,5 @@ The backend is now ready. Run a local server with
 The backend should be available at `localhost:8000`.
 
 In order to use [Stripe payments](https://stripe.com/) one needs to create an account and obtain a pair of keys (available in the dashboard after signing in). These keys should replace `STRIPE_SECRET_KEY` and `STRIPE_PUBLISHABLE_KEY` values in `src/settings/local.py`.
+
+how to make YOLO
